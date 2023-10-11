@@ -1,0 +1,10 @@
+name: My Starter Workflow 2
+on: 
+  workflow_dispatch
+jobs:
+  call-workflow-using-release:
+    uses: VarshaKaranth/repo-name/.github/workflows/reusable-workflow-2.yml@v1
+  call-workflow-using-branch:
+    uses: VarshaKaranth/repo-name/.github/workflows/reusable-workflow-2.yml@master
+  call-workflow-using-sha:
+    uses: VarshaKaranth/repo-name/.github/workflows/reusable-workflow-2.yml@bae0e00c6f17d53a682a53ac860dcb7e772f5281
