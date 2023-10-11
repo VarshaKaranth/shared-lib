@@ -1,0 +1,6 @@
+name: My Starter Wrokflow
+on: 
+  workflow_dispatch:
+jobs:
+  call-workflow-in-local-repo:
+    uses: ./.github/workflows/reusable-workflow-1.yml
