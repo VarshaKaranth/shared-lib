@@ -7,4 +7,4 @@ jobs:
   call-workflow-using-branch:
     uses: VarshaKaranth/repo-name/.github/workflows/reusable-workflow-2.yml@master
   call-workflow-using-sha:
-    uses: VarshaKaranth/repo-name/.github/workflows/reusable-workflow-2.yml@bae0e00c6f17d53a682a53ac860dcb7e772f5281
+    uses: VarshaKaranth/repo-name/.github/workflows/reusable-workflow-2.yml@e28138aef1bb26b0f742d1977f15d5094df68229
